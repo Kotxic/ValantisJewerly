@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ValantisJewerly/static/css/main.91aa4b9f.css",
+    "main.js": "/ValantisJewerly/static/js/main.02818ac7.js",
+    "index.html": "/ValantisJewerly/index.html",
+    "main.91aa4b9f.css.map": "/ValantisJewerly/static/css/main.91aa4b9f.css.map",
+    "main.02818ac7.js.map": "/ValantisJewerly/static/js/main.02818ac7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91aa4b9f.css",
+    "static/js/main.02818ac7.js"
+  ]
+}
