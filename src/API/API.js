@@ -3,7 +3,7 @@ import axios from "axios";
 
 export default class API{
     static async postData(data){
-        const apiUrl = 'http://api.valantis.store:40000/';
+        const apiUrl = 'https://api.valantis.store:41000/';
         const password = 'Valantis';
         const timestamp = new Date().toISOString().slice(0, 10).replace(/-/g, '');
         const xAuth = md5(`${password}_${timestamp}`);

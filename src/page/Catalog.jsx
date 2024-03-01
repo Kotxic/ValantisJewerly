@@ -44,7 +44,7 @@ function Catalog({basket, setBasket}) {
         } else {
             console.error("Ошибка: Ответ первого запроса не содержит свойства 'result'");
         }
-        setTimeout(setIsProductLoader(false), 100)
+        setTimeout(setIsProductLoader(false), 10000)
     }
 
     return (

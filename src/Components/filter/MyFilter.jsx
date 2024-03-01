@@ -28,7 +28,7 @@ const MyFilter = ({flag, setFlag, value, setValue, setExample}) => {
             </select>
             <input className={cl.filterInput} value={sort} onChange={(e)=>setSort(e.target.value)} type='text' placeholder='сортировка'/>
             <MyButton onClick={()=>{setFlag(!flag);setParams(value)}}>Посик</MyButton>
-            <MyButton onClick={()=>{setExample({ action: "get_ids", params: {offset: 0, limit: 50}}); setFlag(!flag);}}>Сбросить фильтр</MyButton>
+            <MyButton onClick={()=>{setExample({ action: "get_ids", params: {offset: 0, limit: 49}}); setFlag(!flag);}}>Сбросить фильтр</MyButton>
         </div>
     );
 };

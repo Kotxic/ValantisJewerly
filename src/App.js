@@ -1,5 +1,5 @@
 import './style/style.css'
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {BrowserRouter, Navigate, Route, Routes} from "react-router-dom";
 import Catalog from "./page/Catalog";
 import Basket from "./page/Basket";
 import {useState} from "react";
@@ -15,8 +15,9 @@ function App() {
       <div className='wrapper'>
           <Header/>
       <Routes>
-        <Route path={'/'} element={<Catalog basket={basket} setBasket={basketSet}/>}/>
-        <Route path={'/basket'} element={<Basket basket={basket} setBasket={setBasket}/>}/>
+            <Route path={'/'} element={<Catalog basket={basket} setBasket={basketSet}/>}/>
+            <Route path={'/basket'} element={<Basket basket={basket} setBasket={setBasket}/>}/>
+            <Route path="*" element={<Navigate to='/' replace/>}/>
       </Routes>
       </div>
 
