@@ -1,0 +1,28 @@
+.product{
+    display: flex;
+    justify-content: space-between;
+}
+.productItem {
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    border: 1px solid teal;
+
+}
+.productImage{
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+}
+.productItem__info{
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    align-items: center;
+    gap: 20px;
+}
+.productDescription{
+    color: gray;
+}

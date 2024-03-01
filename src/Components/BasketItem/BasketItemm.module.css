@@ -1,0 +1,23 @@
+.basketItem{
+    padding: 20px 0 20px 0;
+    display: flex;
+    gap: 20px;
+    height: 100px;
+}
+.basketItemContent{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.basketHiading{
+    font-size: 24px;
+}
+.basketContent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.basketDescription{
+    color: grey;
+}

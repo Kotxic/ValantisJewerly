@@ -1,0 +1,19 @@
+.basketFooter{
+
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 10px 0 10px 0;
+    background-color: white;
+    }
+.basketContent{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 1400px;
+    padding-right: 400px;
+    gap: 30px;
+    }

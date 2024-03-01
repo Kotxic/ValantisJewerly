@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './style/style.css'
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Catalog from "./page/Catalog";
+import Basket from "./page/Basket";
+import {useState} from "react";
+import Header from "./Components/header/Header";
 function App() {
+    const [basket, setBasket]=useState([])
+    function basketSet(item){
+        setBasket(item)
+        console.log(basket)
+    }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className='wrapper'>
+          <Header/>
+      <Routes>
+        <Route path={'/'} element={<Catalog basket={basket} setBasket={basketSet}/>}/>
+        <Route path={'/basket'} element={<Basket basket={basket} setBasket={setBasket}/>}/>
+      </Routes>
+      </div>
+
+    </BrowserRouter>
+
   );
 }
 

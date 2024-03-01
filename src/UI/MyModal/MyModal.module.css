@@ -1,0 +1,56 @@
+.myModal{
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.myModal.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myModalContent{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    border-radius: 16px;
+    gap: 40px;
+}
+.myModalImg{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100px;
+    height: 100px;
+}
+.myModalInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.myModalInfoDop{
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+}
+.myModalDescription{
+    color: grey
+}
+.myModalButton{
+    display: flex;
+    justify-content: space-between;
+}
+.myModalSize{
+    display: flex;
+    gap: 5px;
+}
+.myModalButtons{
+    user-select: none;
+    cursor: pointer;
+}
