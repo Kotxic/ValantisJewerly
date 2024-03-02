@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ValantisJewerly/static/css/main.91aa4b9f.css",
-    "main.js": "/ValantisJewerly/static/js/main.efdab4ed.js",
+    "main.js": "/ValantisJewerly/static/js/main.f4175276.js",
     "index.html": "/ValantisJewerly/index.html",
     "main.91aa4b9f.css.map": "/ValantisJewerly/static/css/main.91aa4b9f.css.map",
-    "main.efdab4ed.js.map": "/ValantisJewerly/static/js/main.efdab4ed.js.map"
+    "main.f4175276.js.map": "/ValantisJewerly/static/js/main.f4175276.js.map"
   },
   "entrypoints": [
     "static/css/main.91aa4b9f.css",
-    "static/js/main.efdab4ed.js"
+    "static/js/main.f4175276.js"
   ]
 }
