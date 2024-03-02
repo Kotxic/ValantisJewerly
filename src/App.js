@@ -15,9 +15,9 @@ function App() {
       <div className='wrapper'>
           <Header/>
       <Routes>
-            <Route path={'/'} element={<Catalog basket={basket} setBasket={basketSet}/>}/>
+            <Route path={'/ValantisJewerly'} element={<Catalog basket={basket} setBasket={basketSet}/>}/>
             <Route path={'/basket'} element={<Basket basket={basket} setBasket={setBasket}/>}/>
-            <Route path="*" element={<Navigate to='/' replace/>}/>
+            <Route path="*" element={<Navigate to='/ValantisJewerly' replace/>}/>
       </Routes>
       </div>
 
